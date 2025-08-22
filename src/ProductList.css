@@ -98,6 +98,14 @@ body {
   max-width: 100%;
   height: 200px; /* Adjust height for better consistency */
   margin-bottom: 10px;
+  overflow: hidden;
+}
+
+
+.product-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 .product-button:hover {
@@ -106,7 +114,7 @@ body {
 
 /* Pseudo-elements - Sale badge */
 .product-card::before {
-  content: "SALE";
+  content: "OFERTA";
   background-color: #e74c3c;
   color: #fff;
   position: absolute;

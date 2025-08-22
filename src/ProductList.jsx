@@ -17,21 +17,25 @@ function ProductList({ onHomeClick }) {
           name: "Cinta",
           description: "Filtra formaldehído y xileno del aire.",
           cost: "$12",
+          img: "https://cdn.pixabay.com/photo/2020/03/21/21/29/plant-4955230_1280.jpg",
         },
         {
           name: "Lirio de la Paz",
           description: "Elimina esporas de moho y purifica el aire.",
           cost: "$18",
+          img: "https://cdn.pixabay.com/photo/2020/08/27/13/27/flower-5522053_1280.jpg",
         },
         {
           name: "Helecho de Boston",
           description: "Añade humedad al aire y elimina toxinas.",
           cost: "$20",
+          img: "https://cdn.pixabay.com/photo/2022/03/03/14/10/nature-7045451_1280.jpg",
         },
         {
           name: "Planta de Caucho",
           description: "Fácil de cuidar y eficaz para eliminar toxinas.",
           cost: "$17",
+          img: "https://cdn.pixabay.com/photo/2021/02/03/03/45/three-5976503_640.jpg",
         },
       ],
     },
@@ -42,32 +46,38 @@ function ProductList({ onHomeClick }) {
           name: "Lavanda",
           description: "Aroma relajante, usado en aromaterapia.",
           cost: "$20",
+          img: "https://cdn.pixabay.com/photo/2021/07/09/06/57/lavender-6398425_640.jpg",
         },
         {
           name: "Jazmín",
           description: "Fragancia dulce, promueve la relajación.",
           cost: "$18",
+          img: "https://cdn.pixabay.com/photo/2020/06/06/15/48/scent-of-jasmine-5267072_640.jpg",
         },
         {
           name: "Romero",
           description: "Aroma vigorizante, usado también en la cocina.",
           cost: "$15",
+          img: "https://cdn.pixabay.com/photo/2020/05/01/13/24/herbs-5117039_640.jpg",
         },
         {
           name: "Menta",
           description: "Aroma refrescante, usado en tés y cocina.",
           cost: "$12",
+          img: "https://cdn.pixabay.com/photo/2017/06/12/19/23/moroccan-mint-2396530_640.jpg",
         },
         {
           name: "Melisa",
           description: "Aroma cítrico, alivia el estrés y favorece el sueño.",
           cost: "$14",
+          img: "https://cdn.pixabay.com/photo/2015/11/26/01/32/mellisa-1063171_1280.jpg",
         },
         {
           name: "Jacinto",
           description:
             "Jacinto es una hermosa planta con flores conocida por su fragancia.",
           cost: "$22",
+          img: "https://cdn.pixabay.com/photo/2018/04/02/18/11/muscari-3284637_640.jpg",
         },
       ],
     },
@@ -79,33 +89,33 @@ function ProductList({ onHomeClick }) {
           description:
             "El orégano contiene compuestos que pueden repeler ciertos insectos.",
           cost: "$10",
+          img: "https://cdn.pixabay.com/photo/2014/04/10/15/37/oregano-321033_640.jpg",
         },
         {
           name: "Caléndula",
           description:
             "Repelente natural de insectos, también añade color al jardín.",
           cost: "$8",
+          img: "https://cdn.pixabay.com/photo/2018/06/02/18/51/calendula-3448949_640.jpg",
         },
         {
           name: "Geranios",
           description:
             "Conocidos por repeler insectos mientras aportan un aroma agradable.",
           cost: "$20",
+          img: "https://cdn.pixabay.com/photo/2017/09/26/18/07/geraniums-2789597_640.jpg",
         },
         {
           name: "Albahaca",
           description: "Repele moscas y mosquitos, también usada en la cocina.",
           cost: "$9",
-        },
-        {
-          name: "Lavanda",
-          description: "Aroma relajante, usado en aromaterapia.",
-          cost: "$20",
+          img: "https://cdn.pixabay.com/photo/2014/12/30/11/12/basil-583816_640.jpg",
         },
         {
           name: "Hierba Gatera",
           description: "Repele mosquitos y atrae a los gatos.",
           cost: "$13",
+          img: "https://cdn.pixabay.com/photo/2021/11/16/13/46/grape-catnip-6801005_640.jpg",
         },
       ],
     },
@@ -116,32 +126,26 @@ function ProductList({ onHomeClick }) {
           name: "Aloe Vera",
           description: "Gel calmante usado para afecciones de la piel.",
           cost: "$14",
+          img: "https://cdn.pixabay.com/photo/2021/08/13/22/35/plant-6544088_1280.jpg",
         },
         {
           name: "Equinácea",
           description:
             "Refuerza el sistema inmunológico, ayuda a combatir resfriados.",
           cost: "$16",
+          img: "https://cdn.pixabay.com/photo/2023/07/23/13/04/flower-8145077_640.jpg",
         },
         {
           name: "Menta Piperita",
           description: "Alivia problemas digestivos y dolores de cabeza.",
           cost: "$13",
-        },
-        {
-          name: "Melisa",
-          description: "Calma los nervios y promueve la relajación.",
-          cost: "$14",
+          img: "https://cdn.pixabay.com/photo/2018/04/28/22/57/spice-3358557_1280.jpg",
         },
         {
           name: "Manzanilla",
           description: "Alivia la ansiedad y favorece el sueño.",
           cost: "$15",
-        },
-        {
-          name: "Caléndula",
-          description: "Cura heridas y calma irritaciones de la piel.",
-          cost: "$12",
+          img: "https://cdn.pixabay.com/photo/2023/07/11/13/03/mayweed-8120555_640.jpg",
         },
       ],
     },
@@ -152,34 +156,40 @@ function ProductList({ onHomeClick }) {
           name: "Zamioculca",
           description: "Prospera con poca luz y requiere riego mínimo.",
           cost: "$25",
+          img: "https://cdn.pixabay.com/photo/2015/10/08/23/59/fortune-spring-978602_640.jpg",
         },
         {
           name: "Potus",
           description: "Tolera descuidos y puede crecer en varias condiciones.",
           cost: "$10",
+          img: "https://cdn.pixabay.com/photo/2017/09/14/17/10/money-plant-2749714_640.jpg",
         },
         {
           name: "Sansevieria",
           description:
             "Requiere riego poco frecuente y es resistente a la mayoría de plagas.",
           cost: "$15",
+          img: "https://cdn.pixabay.com/photo/2022/08/14/12/12/sansevieria-7385720_640.jpg",
         },
         {
           name: "Aspidistra",
           description: "Planta resistente que tolera poca luz y descuido.",
           cost: "$20",
+          img: "https://cdn.pixabay.com/photo/2013/02/13/14/39/etlingera-wyniosa-81281_640.jpg",
         },
         {
           name: "Suculentas",
           description:
             "Plantas tolerantes a la sequía con formas y colores únicos.",
           cost: "$18",
+          img: "https://cdn.pixabay.com/photo/2017/02/07/09/05/succulent-plants-2045388_640.jpg",
         },
         {
           name: "Aglaonema",
           description:
             "Requiere cuidados mínimos y añade color a los espacios interiores.",
           cost: "$22",
+          img: "https://cdn.pixabay.com/photo/2022/01/14/17/32/leaves-6937875_640.jpg",
         },
       ],
     },
@@ -246,7 +256,7 @@ function ProductList({ onHomeClick }) {
           <div className="luxury">
             <img
               src="https://cdn.pixabay.com/photo/2022/11/08/14/42/monstera-7578722_1280.png"
-              alt=""
+              alt="Vivero Paraíso logo"
             />
             <a href="/" onClick={(e) => handleHomeClick(e)}>
               <div style={{ marginLeft: "10px" }}>
@@ -316,10 +326,7 @@ function ProductList({ onHomeClick }) {
                 <div key={index + indexPlanta} className="product-card">
                   <div className="product-title">{planta.name}</div>
                   <div className="product-image">
-                    <img
-                      src="https://cdn.pixabay.com/photo/2021/08/13/22/35/plant-6544088_1280.jpg"
-                      alt={planta.name}
-                    />
+                    <img src={planta.img} alt={planta.name} />
                   </div>
                   <div className="product-price">{planta.cost}</div>
                   <div style={{ margin: 10 }}>
