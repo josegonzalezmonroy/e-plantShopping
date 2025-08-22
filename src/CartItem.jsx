@@ -91,7 +91,8 @@ const CartItem = ({ onContinueShopping }) => {
           Seguir comprando
         </button>
         <br />
-        <button className="get-started-button1">Finalizar compra</button>
+        <button className="get-started-button1"
+        onClick={()=>alert("Funcionalidad en desarrollo")}>Finalizar compra</button>
       </div>
     </div>
   );
